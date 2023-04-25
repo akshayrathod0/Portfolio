@@ -298,6 +298,7 @@ p{
     justify-content: center;
     align-items: center;
     margin-top: 5%;
+    margin-bottom: 5%;
 
     
 }
@@ -349,7 +350,7 @@ p{
     flex-direction: column;
     max-width: 1200px;
     margin:0 auto;
-    margin-top: -20%;
+    /* margin-top: 20%; */
 }
 #contact .contact-items{
     width: 400px;
