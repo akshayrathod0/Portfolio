@@ -297,7 +297,6 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 7%;
     margin-top: 5%;
 
     
@@ -305,13 +304,12 @@ p{
 
 #about .col-right{
     width: 100%;
-    margin-top: -45%;
+    margin-top: -20%;
 }
 #about .col-right h2{
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: .2rem;
-    margin-bottom: 30px;
 }
 .cta {
     display: inline-block;
@@ -351,7 +349,7 @@ p{
     flex-direction: column;
     max-width: 1200px;
     margin:0 auto;
-    margin-top: -40%;
+    margin-top: -20%;
 }
 #contact .contact-items{
     width: 400px;
@@ -571,7 +569,7 @@ p{
     }
     #hero .social-icon{
         display: flex;
-        left: -80px;
+        left: 80px;
     }
     #projects .projects h1{
         font-size: 1.5rem;
