@@ -290,13 +290,10 @@ p{
 #about .about {
     flex-direction: column;
     text-align: center;
-    /* width: 1200px; */
     margin: 0 auto;
     padding: 100px 20px;
 }
 #about1 .col-left{
-    /* width: 250px;
-    height: 410px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -316,9 +313,6 @@ p{
     letter-spacing: .2rem;
     margin-bottom: 30px;
 }
-/* #about .col-right p{
-    margin-bottom: 20px;
-} */
 .cta {
     display: inline-block;
     padding: 10px 30px;
@@ -350,16 +344,7 @@ p{
     align-items: center;
     justify-content:center ;
 }
-/* #about .col-left .about-img::after{
-   content: '';
-   position: absolute;
-   left: -33px;
-   top: 19px;
-   height: 98%;
-   width: 98%;
-   border: 7px solid crimson;   
-   z-index: -1;
-} */
+
 /* End of About Section */
 /* contact Section */
 #contact .contact{
@@ -515,6 +500,7 @@ p{
     #about .col-right{
         text-align: left;
         padding: 30px;
+       
     }
     /* End of the About */ 
 
@@ -559,7 +545,7 @@ p{
 @media only screen and (max-width:400px){
     #services .service-item{
         align-items: flex-start;
-        width: 400px;
+        width: 420px;
         height: 250px;
     }
     #services p{
@@ -570,6 +556,7 @@ p{
     }
     .social-icon{
         flex-direction: row-reverse;
+        left: -50px;
     }
     #services .service-item .java{
         font-size: 0.7rem;
