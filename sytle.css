@@ -557,7 +557,8 @@ p{
         font-size: 1.5rem;
     }
     .social-icon{
-        flex-direction: row-reverse;
+        flex-direction: column;
+
     }
     #services .service-item .java{
         font-size: 0.7rem;
