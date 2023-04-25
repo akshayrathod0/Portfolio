@@ -353,7 +353,7 @@ p{
     flex-direction: column;
     max-width: 1200px;
     margin:0 auto;
-    /* margin-top: 20%; */
+    margin-top: 10%;
 }
 #contact .contact-items{
     width: 400px;
@@ -558,7 +558,7 @@ p{
     }
     .social-icon{
         flex-direction: row-reverse;
-        left: -120px;
+        left: 60px;
     }
     #services .service-item .java{
         font-size: 0.7rem;
