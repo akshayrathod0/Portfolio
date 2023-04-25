@@ -306,6 +306,9 @@ p{
 #about .col-right{
     width: 100%;
     margin-top: -10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 #about .col-right h2{
     font-size: 1.8rem;
@@ -555,7 +558,7 @@ p{
     }
     .social-icon{
         flex-direction: row-reverse;
-        left: -50px;
+        left: -20px;
     }
     #services .service-item .java{
         font-size: 0.7rem;
