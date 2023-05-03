@@ -181,7 +181,8 @@ p{
     flex-direction: column;
     padding: 10px;
     border-radius: 10px;
-    background-image: url(./image/background-img233.jpg);
+    /* background-image: url(./image/background-img233.jpg); */
+    background-color: #29323c;
     background-size: cover;
     margin: 15px 19%;
     position: relative;
@@ -202,8 +203,8 @@ p{
 #services .service-item h2{
     font-size: 2rem;
     margin-bottom: 10px;
-    color: white;
-    text-transform: uppercase;
+    color: black;
+    /* text-transform: uppercase; */
 }
 
 #services .service-item p{
@@ -299,15 +300,15 @@ p{
     align-items: center;
     margin-top: 5%;    
 }
-#about1 .about-img hr{
+/* #about .col-right .line{
     margin-top: 30px;
-    width: auto;
-    height: 6px;
-    display: flex;
-    align-items: center;
+    width: 100px;
+    height: 6px;display: flex;
     justify-content: center;
+    align-items: center;
     background-color: green;
-}
+    position: relative;
+} */
 
 #about .col-right{
     width: 100%;
@@ -316,11 +317,14 @@ p{
     align-items: center;
     text-align: center;
 }
-#about .col-right h2{
-    font-size: 1.8rem;
-    font-weight: 500;
-    letter-spacing: .2rem;
+
+#about .col-left .about-img{
+    position: relative;
+    border:10px solid white;
+    align-items: center;
+    justify-content:center ;
 }
+
 .cta {
     display: inline-block;
     padding: 10px 30px;
@@ -343,14 +347,6 @@ p{
 }
 .brand h1 span{
     color: crimson;
-}
-
-
-#about .col-left .about-img{
-    position: relative;
-    border:10px solid white;
-    align-items: center;
-    justify-content:center ;
 }
 
 /* End of About Section */
