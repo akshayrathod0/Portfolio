@@ -297,10 +297,16 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
-    /* margin-bottom: 5%; */
-
-    
+    margin-top: 5%;    
+}
+#about1 .about-img hr{
+    margin-top: 30px;
+    width: auto;
+    height: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
 }
 
 #about .col-right{
@@ -644,6 +650,9 @@ p{
         display: flex;
         width: fit-content;
         height: fit-content;
+    }
+    #contact .contact .section-title{
+       margin-bottom: 30px;
     }
 }
 /* media query for for desktop end */
