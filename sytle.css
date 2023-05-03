@@ -550,6 +550,9 @@ p{
         width: 420px;
         height: 250px;
     }
+    #services .service-top .section-title{
+       font-size: 1.5rem;
+    }
     #services p{
          align-items: flex-start;
     }
@@ -557,7 +560,7 @@ p{
         font-size: 1.5rem;
     }
     .social-icon{
-        flex-direction: column;
+        flex-direction: row;
 
     }
     #services .service-item .java{
@@ -565,15 +568,15 @@ p{
     }
     #hero .hero{
         width: 300px;
-        height: 300px;
+        /* height: 300px; */
     }
     #services{
         align-items: flex-start;
         justify-content: flex-start;
     }
     #hero .social-icon{
-        display: block;
-        left:10px;
+        display: flex;
+        margin-left: 10px;
     }
     #projects .projects h1{
         font-size: 1.5rem;
@@ -610,9 +613,9 @@ p{
     #hero .hero{
         max-width: 500px;
     }
-    /* #contact .container{
+    /* #contact .container{ */
         /* margin-top: -11%; */
-    } */
+    /* } */
     #about .col-right{
         margin-top: 34%;
     }
