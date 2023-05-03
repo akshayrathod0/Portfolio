@@ -572,8 +572,8 @@ p{
         justify-content: flex-start;
     }
     #hero .social-icon{
-        display: flex;
-        left: 20px;
+        display: block;
+        left:10px;
     }
     #projects .projects h1{
         font-size: 1.5rem;
@@ -610,9 +610,9 @@ p{
     #hero .hero{
         max-width: 500px;
     }
-    #contact .container{
-        margin-top: -11%;
-    }
+    /* #contact .container{
+        /* margin-top: -11%; */
+    } */
     #about .col-right{
         margin-top: 34%;
     }
