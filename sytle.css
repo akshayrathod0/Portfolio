@@ -353,7 +353,7 @@ p{
     flex-direction: column;
     max-width: 1200px;
     margin:0 auto;
-    margin-top: 10%;
+    margin-top: -10%;
 }
 #contact .contact-items{
     width: 400px;
@@ -573,7 +573,7 @@ p{
     }
     #hero .social-icon{
         display: flex;
-        left: 80px;
+        left: 20px;
     }
     #projects .projects h1{
         font-size: 1.5rem;
